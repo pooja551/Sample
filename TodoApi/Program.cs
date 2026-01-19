@@ -60,4 +60,3 @@ app.MapDelete("/api/todos/{id:int}", (int id) =>
 app.Run();
 
 public record TodoItem(int Id, string Title, bool IsDone);
-``
